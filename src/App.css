@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "Permanent Marker", cursive !important;
+  color: black;
+}
+.box {
+  font-family: "Permanent Marker", cursive !important;
+}
+.place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid rgb(131, 125, 125);
+}
+.place:hover {
+  box-shadow: rgb(70, 70, 110) 0px 2px 4px 0px, rgb(73, 73, 126) 0px 2px 16px 0px;
+  z-index: 5;
+}
